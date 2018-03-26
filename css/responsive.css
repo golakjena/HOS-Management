@@ -1,0 +1,49 @@
+@media (min-width:320px) and (max-width:767px){
+	.homePage{ background-attachment: fixed; }
+	.header{ height: 64px; }
+	.logo{ width: 90px; margin: 8px 0 0 15px; }
+	.btnMobileNav{ top: 22px; }
+	.loginCont{ display: none; }
+	.loginContMob{ display: block; padding: 70px 30px 20px 30px;}
+	.nav{ padding:60px 0 0 0;}
+	.bannerContent h2{ font-size: 28px; line-height: 32px; }
+	.bannerContent h3{font-size: 16px; line-height: 20px; }
+	.nav li a{ padding: 6px 30px; }
+	.fooLogo{ padding: 0 0 5px 0; }
+	.fooDesc p{ padding: 0 0 7px 0; }
+	.fooDesc{ padding: 10px 20px 0 20px; }
+	
+	.innerHeader{ margin: 64px 0 20px 0; padding: 30px 20px 0 20px; background-size: 100% 120px;}
+	.heading2{ font-size: 28px; padding: 0 0 30px 0; }
+	.aboutUs{ padding: 20px; }
+	.aboutUs h3{ font-size: 22px; }
+	.aboutUs h4{ font-size: 16px; margin: 0 0 20px 0;}
+	.aboutUs p{ line-height: 24px; }
+	.ourTeam{ padding: 10px 0 20px 20px;}
+	.teamRow{ padding: 15px 0; }
+	.teamRow h5{ font-size: 20px; }
+	.teamRow h6{ font-size: 16px; }
+	.portfolio{ padding:0 20px 20px 20px; }
+	.portfolioRow{ padding: 20px 0; }
+	.portfolioLeft{ width: 100%; margin: 0 0 20px 0; }
+	.portfolioRight{ width: 100%; float: left; overflow: visible; padding: 0; }
+	.portfolioRight h3{ font-size: 20px; margin: 0; }
+	.portfolioRight p{ font-size: 14px; }
+	.portfolioRight h5{ font-size: 16px; margin: 20px 0 0 0; }
+	.portfolioRight h6{ font-size: 14px; margin: 0 0 20px 0; }
+	.btnVisitWebsite{ font-size: 14px; padding: 10px 20px; }
+	
+	.footer, .footerInnerPage{ display: none; }
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.bannerContent{ transform: none; -moz-transform: none; -webkit-transform: none; top: auto; padding: 250px 50px 0 50px;}
+	.aboutUs{ padding: 40px; }
+	.ourTeam{ padding: 20px 0 20px 40px; }
+	.portfolio{ padding: 20px 0 20px 40px; }
+	.portfolioLeft{ width: 250px; margin: 0 30px 0 0; }
+	.portfolioRight h3{ font-size: 22px; line-height: 24px; }
+	.portfolioRight h6{ font-size: 16px; }
+}
