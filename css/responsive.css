@@ -5,7 +5,7 @@
 	.btnMobileNav{ top: 22px; }
 	.loginCont{ display: none; }
 	.loginContMob{ display: block; padding: 70px 30px 20px 30px;}
-	.nav{ padding:60px 0 0 0;}
+	.nav{ padding:0;}
 	.bannerContent h2{ font-size: 28px; line-height: 32px; }
 	.bannerContent h3{font-size: 16px; line-height: 20px; }
 	.nav li a{ padding: 6px 30px; }
@@ -20,9 +20,18 @@
 	.aboutUs h4{ font-size: 16px; margin: 0 0 20px 0;}
 	.aboutUs p{ line-height: 24px; }
 	.ourTeam{ padding: 10px 0 20px 20px;}
-	.teamRow{ padding: 15px 0; }
+	.teamRow{ padding: 15px 10px 15px 0; }
 	.teamRow h5{ font-size: 20px; }
 	.teamRow h6{ font-size: 16px; }
+	
+	.latestNews{ padding: 10px 0 20px 20px;}
+	.newsRow{ padding: 15px 10px 15px 0; }
+	.newsRow h5{ font-size: 20px; }
+	.newsRow h6{ font-size: 16px; }
+	.newsWrapper{ padding: 15px; }
+	.newsWrapper h3{ font-size: 20px;}
+	.newsWrapper h6{ font-size: 16px;}
+
 	.portfolio{ padding:0 20px 20px 20px; }
 	.portfolioRow{ padding: 20px 0; }
 	.portfolioLeft{ width: 100%; margin: 0 0 20px 0; }
@@ -32,8 +41,17 @@
 	.portfolioRight h5{ font-size: 16px; margin: 20px 0 0 0; }
 	.portfolioRight h6{ font-size: 14px; margin: 0 0 20px 0; }
 	.btnVisitWebsite{ font-size: 14px; padding: 10px 20px; }
+
+	.careers{ padding: 15px; }
+	.careers h3{ font-size: 14px; }
+	.formCont{ padding: 30px 0 0 0; }
+	.frmCol{ width: 100%; }
 	
-	.footer, .footerInnerPage{ display: none; }
+	.footer{ display: none; }
+	.footerInnerPage{ padding: 20px 10px; }
+	.footerInner{ -ms-flex-wrap:wrap; flex-wrap:wrap; -webkit-flex-wrap:wrap; }
+	.fooCol{ flex-basis: 100%; text-align: center; margin: 0 0 10px 0;}
+
 
 }
 

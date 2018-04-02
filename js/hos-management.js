@@ -7,7 +7,7 @@
 			if(navPos == -250){
 
 				$(this).animate({
-					right:145
+					right:143
 				});
 				$(this).find("span").text("Close");
 

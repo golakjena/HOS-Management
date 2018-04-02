@@ -15,14 +15,22 @@
 	<header class="header">
 		<a href="index.html" class="logo"><img src="images/HOS_logo.png" alt=""></a>
 	</header>
+	<div class="loginCont clearfix">
+		<a href="https://www.office.com/" class="clientLogin" target="_blank">Cloud Login</a>
+	</div>
 	<div class="btnMobileNavOuter"></div>
 	<a class="btnMobileNav" href="javascript:void(0);"><span>Menu</span> <i></i></a>
 	<div class="navigationOuter">
+		<div class="loginContMob clearfix">
+			<a href="https://www.office.com/" class="clientLogin" target="_blank">Cloud Login</a>
+		</div>
 		<ul class="nav clearfix">
 			<li><a class="activePage" href="index.html">Home</a></li>
 			<li><a href="about-us.html">About Us</a></li>
 			<li><a href="our-team.html">Our Team</a></li>
 			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="careers.html">Careers</a></li>
 		</ul>
 		<div class="fooDesc">
 			<div class="fooLogo"><img src="images/HOS_whitelogo.png" alt=""></div>
@@ -32,7 +40,7 @@
 	</div>
 	<div class="videoCont clearfix">
 		<div class="bannerContent">
-			<h2>HOS Management</h2>
+			<h2>Southern Hospitality at its Finest</h2>
 			<h3><span>A Premier Hospitality Experience</span></h3>
 		</div>
 		<div class="videoOverlay"></div>
@@ -58,14 +66,10 @@
 	//Random Video
 	$(function(){
 		var videoList = [
-			"videos/atlanta1.mp4",
-			"videos/atlanta2.mp4",
-			"videos/atlanta4.mp4"
+			"videos/iStock-577748032.mp4"
 		];
 		var posters = [
-			"videos/atlanta1.jpg",
-			"videos/atlanta2.jpg",
-			"videos/atlanta4.jpg"
+			"videos/poster.jpg"
 		];
 		var randomVideo = Math.floor(Math.random()*videoList.length);
 		$("#videoplayer").html("<video id='video' autoplay muted playsinline poster='" + posters[randomVideo] + "' loop><source src='" + videoList[randomVideo] + "' type='video/mp4'></video>");

@@ -26,11 +26,11 @@ table{ border-collapse:collapse;}
 *{ box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; -ms-box-sizing:border-box;}
 a:hover, a:focus{ color: none !important; text-decoration: none; }
 
-::-webkit-input-placeholder {color: #000;}
-:-moz-placeholder { color: #000; opacity: 1;}
-::-moz-placeholder { color: #000; opacity:  1;}
-:-ms-input-placeholder { color: #000;}
-:placeholder-shown { color: #000;}
+::-webkit-input-placeholder {color: #aaa;}
+:-moz-placeholder { color: #aaa; opacity: 1;}
+::-moz-placeholder { color: #aaa; opacity:  1;}
+:-ms-input-placeholder { color: #aaa;}
+:placeholder-shown { color: #aaa;}
 p{ margin:0; }
 
 
@@ -109,7 +109,7 @@ Index
 .nav li a{ display: block; color: #FFC0C0; padding: 10px 30px; }
 .nav li a:hover{ color: #fff;}
 .nav li a.activePage{ color: #fff; font-family: 'gothambold', Arial; font-size: 20px;}
-
+.clientLogin{ display: block; padding: 10px 10px 10px 50px; border: 2px solid rgba(255,255,255,0.4); font-family:'gothammedium', Arial; font-size: 13px; color: #fff; background: url(../images/login_icon.png) 10px center no-repeat;}
 
 .fooDesc{ width: 100%; position: absolute; left: 0; bottom: 0; padding: 20px 30px; }
 .fooLogo{ padding: 0 0 15px 0; }
@@ -182,6 +182,32 @@ Portfolio
 .btnVisitWebsite{ display: inline-block; background: #EB2F2E; outline: 0; border:0; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 16px; color: #fff; font-family: 'gothambold', Arial; padding: 20px 30px;}
 
 
+/***
+News
+***/
+.latestNews{ padding: 40px 0 40px 80px; }
+.newsRow{ padding: 35px 10px 35px 0; border-bottom: 1px #DCE1E4 solid; }
+.newsRow:last-child{ border-bottom: 0;}
+.newsRow h5{ font-family: 'gothambold', Arial; font-size: 27px; color: #4A4A4A;}
+.newsRow h6{ font-size: 20px; color: #4A4A4A; margin: 0 0 15px 0;}
+.newsRow p{ font-size: 16px; color: #4A4A4A; margin: 0 0 15px 0;}
+.readMore{ color: #00cbf0; font-size: 14px; }
+.newsWrapper{ padding: 40px; }
+.newsWrapper h3{ font-family: 'gothambold', Arial; font-size: 27px; color: #4A4A4A;}
+.newsWrapper h6{ font-size: 20px; color: #4A4A4A; margin: 0 0 15px 0;}
+.newsWrapper p{ font-size: 16px; line-height: 22px; color: #4A4A4A; margin: 0 0 15px 0;}
+
+/***
+careers
+***/
+.careers{ padding: 40px; }
+.careers h3{ font-family: 'gothambold', Arial; font-size: 18px; color: #4A4A4A; text-align: center; }
+.formCont{ padding: 50px 0 0 0; max-width: 700px; margin: 0 auto; }
+.frmCol{ width: 48%;}
+.frmRow{ margin: 0 0 20px 0; }
+.txtInput{ width: 100%; border:1px #ddd solid; padding: 10px; color: #4A4A4A; outline: 0; font-family:'gothambook', Arial; font-size:14px;  }
+.txtArea{ width: 100%; border:1px #ddd solid; padding: 10px; color: #4A4A4A; outline: 0; font-family:'gothambook', Arial; font-size:14px; height: 100px; resize: none;   vertical-align: top;}
+.btnSubmit{ display: block; width: 100%; outline: 0; border:0; background: #00cbf0; padding:12px 10px; cursor: pointer; font-family:'gothambook', Arial; font-size:14px; color: #fff; vertical-align: top;}
 
 /***
 Footer
